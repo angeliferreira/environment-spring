@@ -6,15 +6,15 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import br.com.lemao.environment.annotation.GivenEnvironment;
 import br.com.lemao.environment.spring.junit.EnvironmentSpringRule;
-import br.com.lemao.environment.spring.junit.EnvironmentSpringRunner;
 import br.com.lemao.environment.spring.test.environment.BikerUtils;
 import br.com.lemao.environment.spring.test.environment.FooEnvironment;
 import br.com.lemao.environment.spring.test.model.LemaoBiker;
 
-@RunWith(EnvironmentSpringRunner.class)
+@RunWith(SpringRunner.class)
 @SpringBootTest
 public class EnvironmentSpringTest {
 

@@ -21,8 +21,5 @@ public class EnvironmentSpringContext implements ApplicationContextAware {
 	public static ApplicationContext getApplicationContext() {
 		return context;
 	}
-	public static void setApplicationContextStatic(ApplicationContext applicationContext) {
-		context = applicationContext;
-	}
 
 }
