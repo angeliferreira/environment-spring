@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>br.com.lemao</groupId>
+	<artifactId>environment-spring</artifactId>
+	<version>1.0</version>
+	<packaging>jar</packaging>
+
+	<name>Environment Spring</name>
+	<description>Environment Spring project</description>
+	<url>https://github.com/angeliferreira/environment-spring</url>
+
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<url>https://github.com/angeliferreira/environment-spring.git</url>
+	</scm>
+
+	<developers>
+		<developer>
+			<id>guilhermeferreira</id>
+			<name>Guilherme Ferreira</name>
+			<email>angeliferreira@gmail.com</email>
+		</developer>
+	</developers>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>br.com.lemao</groupId>
+			<artifactId>environment-junit</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<version>1.5.6.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+
+
+	</dependencies>
+
+</project>
